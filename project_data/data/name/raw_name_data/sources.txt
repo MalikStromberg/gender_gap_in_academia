@@ -1,0 +1,11 @@
+names_gender.csv:
+https://data.world/dpieski/namesgender/workspace/file?filename=names_gender.csv
+
+SSA_Names_DB.xslx:
+https://data.world/len/us-first-names-database/workspace/file?filename=SSA_Names_DB.xlsx
+
+gender_refine-csv.csv:
+https://data.world/arunbabu/gender-by-names/workspace/file?filename=gender_refine-csv.csv
+
+commentedGender.csv:
+https://data.world/gaash/95000-unique-first-names-and-gender/workspace/file?filename=commentedGender.csv

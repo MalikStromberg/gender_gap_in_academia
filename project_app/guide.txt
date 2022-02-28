@@ -1,0 +1,13 @@
+data			contains all app-relevant data; this folder is identical to project_data/data/app/
+functions		contains all app-relevant functions
+				functions generally have an 'f_'-prefix followed by the corresponding section number
+				if no section number is given, it is a global function
+www			contains title image
+
+app.R			run to start the app
+app_ui_server.R		contains app UI und server
+ui.R			contains app UI
+server.R		contains app server
+global_variables.R	contains all globally loaded variables, libraries, and functions for the app
+section_XXX_mod.R	contains modularized UI and server of section XXX
+			additionally loads section-specific functions and variables

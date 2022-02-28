@@ -1,0 +1,22 @@
+authentication	(HIDDEN)	- contains personal authentication codes for e.g. APIs
+
+data					- contains all project data
+|	_final				- contains tidy and merged data sets
+|	app				- contains all aggregated data sets for the app; this folder is identical to the data folder in project_app
+|	author	(HIDDEN) 			- contains author data
+|	|	raw_author_data		- contains uncleaned data received through crossref API
+|	|	stacked_author_data	- contains data from raw_author_data summarized by research field
+|	|	temp_author_data	- contains all data that is stored temporarily in case you want to restart R within a script
+|	|	tidy_author_data	- contains cleaned author data
+|	impact	(HIDDEN)		- contains impact data
+|	|	tidy			- contains all tidy data used for creating the final large data set with impact information
+|	name				- contains all name data
+|	|	raw_name_data		- contains all labeled name data sets that we could collect
+|	|	sanity_checks		- contains sanity check data
+|	|	tidy_name_data		- contains our created extended and tidy name data sets
+
+figures					- contains figures created for the presentation
+
+functions				- contains project functions
+
+_main.R			(DO NOT RUN)	- gives information about Script structure that is not described here
